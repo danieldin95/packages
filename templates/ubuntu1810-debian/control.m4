@@ -188,9 +188,7 @@ Architecture: any
 Depends: opennebula-node,
          kpartx,
          libvncserver1,
-         lxd (>= 3.0.0)
 Suggests: rbd-nbd
-Recommends: openssh-server | ssh-server
 Description: sets up an OpenNebula LXD virtualization node
 
 Package: python-pyone
